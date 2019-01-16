@@ -5,9 +5,9 @@ invensense¹«Ë¾ĞÂÒ»´úÍÓÂİÒÇICM20689ÍøÉÏÃ»ÓĞÇı¶¯£¬¹Ù·½Ìá¹©Ò»¸öICM20789°æ±¾ÔÚG55°åÉ
 
 ## Æ½Ì¨²ÎÊı
 
-Chip £º STM32F405RGT6
-IDE :  Keil
-ST lib £º HAL
+Chip £º STM32F405RGT6  
+IDE :  Keil  
+ST lib £º HAL  
 
 ## ÎÄ¼ş½éÉÜ
 
@@ -19,15 +19,15 @@ icm20689ÒÆÖ²°æ±¾demo ÊÇÒ»¸öÒÆÖ²demo£¬¿ÉÒÔ²ÎÕÕÕâ¸ödemoÅäÖÃspi²ÎÊıÒÔ¼°³ÌĞò½á¹¹¡£
 ## Ê¹ÓÃ×¢Òâ
 
 ÕæÕıĞèÒªÊ¹ÓÃÕß¹Ø×¢µÄÖ»ÓĞÒÔÏÂ¼¸¸öº¯Êı
-|º¯Êı |  ¹¦ÄÜ  |  ×¢Òâ  |
-|----|----|----|
-| void icm20689_dmp_setup() |  ³õÊ¼»¯DMP£¨°üÀ¨ÍÓÂİÒÇ£©  |  º¯ÊıÄÚ²¿µ÷ÓÃHAL_Delay£¬Òò´ËĞèÒª·ÅÔÚSPI¼°ÏµÍ³Ê±ÖÓÖ®ºó  |
-| void get_dmp_data() |  »ñÈ¡DMP½âËã³öµÄ×ËÌ¬½Ç£¬0±íÊ¾³É¹¦£¬1±íÊ¾Ê§°Ü  |   Õâ¸öº¯Êı£¨DMP¸üĞÂ×ËÌ¬½ÇÆµÂÊÎª200Hz£¬Òò´Ë¶ÁÈ¡¹ı¿ìÊ±´æÔÚÊ§°ÜµÄÇé¿ö¡££©  |
-| unsigned char MPU_Get_Accelerometer(short *ax,short *ay,short *az) |  »ñÈ¡¼ÓËÙ¶ÈĞÅÏ¢ |  ×¢Òâµ¥Î»£¬Ê¹ÓÃDMPÄ£Ê½³õÊ¼»¯£¬Á¿³Ì±Ø¶¨ÊÇ+/- 4g  |
-| unsigned char MPU_Get_Gyroscope(short *gx,short *gy,short *gz)  |  »ñÈ¡½ÇËÙ¶È  |  ×¢Òâµ¥Î»£¬Ê¹ÓÃDMPÄ£Ê½³õÊ¼»¯£¬Á¿³Ì±Ø¶¨ÊÇ+/- 2000dps  |
+| º¯Êı |  ¹¦ÄÜ  |  ×¢Òâ  |
+| --- | --- | --- |
+|  void icm20689_dmp_setup()   |  ³õÊ¼»¯DMP£¨°üÀ¨ÍÓÂİÒÇ£©   |  º¯ÊıÄÚ²¿µ÷ÓÃHAL_Delay£¬Òò´ËĞèÒª·ÅÔÚSPI¼°ÏµÍ³Ê±ÖÓÖ®ºó   |
+|  void get_dmp_data()   |  »ñÈ¡DMP½âËã³öµÄ×ËÌ¬½Ç£¬0±íÊ¾³É¹¦£¬1±íÊ¾Ê§°Ü   |   Õâ¸öº¯Êı£¨DMP¸üĞÂ×ËÌ¬½ÇÆµÂÊÎª200Hz£¬Òò´Ë¶ÁÈ¡¹ı¿ìÊ±´æÔÚÊ§°ÜµÄÇé¿ö¡££©  |
+|  unsigned char MPU_Get_Accelerometer(short *ax,short *ay,short *az)   |  »ñÈ¡¼ÓËÙ¶ÈĞÅÏ¢  |  ×¢Òâµ¥Î»£¬Ê¹ÓÃDMPÄ£Ê½³õÊ¼»¯£¬Á¿³Ì±Ø¶¨ÊÇ+/- 4g   |
+|  unsigned char MPU_Get_Gyroscope(short *gx,short *gy,short *gz)    |  »ñÈ¡½ÇËÙ¶È  |  ×¢Òâµ¥Î»£¬Ê¹ÓÃDMPÄ£Ê½³õÊ¼»¯£¬Á¿³Ì±Ø¶¨ÊÇ+/- 2000dps   |
 
 ## Author Information
-Name :  LD
-E-mail :  adayimaxiga@hotmail.com
-Wechat :  adayimaxiga
-2019.1.16
+**@Name :  LD**  
+**@E-mail :  adayimaxiga@hotmail.com**  
+**@Wechat :  adayimaxiga**  
+**2019.1.16** 
